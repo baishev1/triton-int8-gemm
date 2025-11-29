@@ -34,7 +34,8 @@ The INT8 Triton kernel provides **1.2× to 1.6× faster execution** compared to 
 
 <img src="results/tflops_M16384_K2048.png" width="700"/>
 
-Triton INT8 reaches **30–33 TOPS**, consistently outperforming cuBLAS FP16.
+Triton INT8 reaches **0.06–0.065 TFLOPS**, slightly outperforming PyTorch FP16 on these shapes.
+This is limited by the test environment and not representative of peak GPU throughput.
 
 ---
 
