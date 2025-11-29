@@ -32,8 +32,6 @@ The INT8 Triton kernel provides **1.2× to 1.6× faster execution** compared to 
 
 ## TFLOPS vs N (M = 16384, K = 2048)
 
-*(Replace with your generated image)*
-
 <img src="results/tflops_M16384_K2048.png" width="700"/>
 
 Triton INT8 reaches **30–33 TOPS**, consistently outperforming cuBLAS FP16.
